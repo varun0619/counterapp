@@ -26,7 +26,7 @@ h2 {
 }
 
 #increment-btn {
-    background-color: #9c5e5e;
+    background-color: #a33232;
     width: 139px;
     height: 30px;
     border-radius: 10px;
@@ -47,9 +47,10 @@ h2 {
 }
 
 
-@media (max-width:1200px) {
+@media (max-width:500px) {
     body {
-        background-image: url("./1st/mac.jpg.jpg");
+        background-image: url("mac.jpg.jpg");
+        background-size: center center cover;
         display: flex;
     }
 }
